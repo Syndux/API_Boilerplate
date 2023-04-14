@@ -1,6 +1,32 @@
 {
+  "name": "authenticate-me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "express-validator": "^6.15.0"
-  }
+    "express-validator": "^6.15.0",
+    "lodash": "^4.17.21",
+    "validator": "^13.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "install": "npm --prefix backend install backend",
+    "dev:backend": "npm install --prefix backend start",
+    "sequelize": "npm run --prefix backend sequelize",
+    "sequelize-cli": "npm run --prefix backend sequelize-cli",
+    "start": "npm start --prefix backend",
+    "build": "npm run --prefix backend build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Syndux/API_Boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Syndux/API_Boilerplate/issues"
+  },
+  "homepage": "https://github.com/Syndux/API_Boilerplate#readme"
 }
